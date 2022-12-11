@@ -12,7 +12,7 @@ def intranzitivnost(seznam):
                 p2 += 1
             if lst[12 + i] > lst[j]:
                 p3 += 1
-    return min(p1, p2, p3)/36 #min treh verjetnosti, da spodnjo omejitev za verjetnost, da med danimi tremi kockami ne velja tranzitivnost
+    return min(p1, p2, p3)/36 #min treh verjetnosti, da verjetnost, da med danimi tremi kockami velja tranzitivnost
 
 testni_primer = [[2, 2, 4, 4, 9, 9], [1, 1, 6, 6, 8, 8], [3, 3, 5, 5, 7, 7]]
 
