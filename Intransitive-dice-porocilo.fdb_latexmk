@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1670843679 "/Users/urska/Desktop/FP_projekt/FP---12.-naloga/FP_12_nal_kratko_p.tex" "/Users/urska/Desktop/FP_projekt/FP---12.-naloga/FP_12_nal_kratko_p.pdf" "FP_12_nal_kratko_p" 1670843679
-  "/Users/urska/Desktop/FP_projekt/FP---12.-naloga/FP_12_nal_kratko_p.aux" 1670843679 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/Users/urska/Desktop/FP_projekt/FP---12.-naloga/FP_12_nal_kratko_p.tex" 1670843677 3510 2d50044f58b9c7b4c4b75c57cd2585d1 ""
+["pdflatex"] 1670998236 "/Users/urska/Desktop/FP_projekt/FP---12.-naloga/Intransitive-dice-porocilo.tex" "/Users/urska/Desktop/FP_projekt/FP---12.-naloga/Intransitive-dice-porocilo.pdf" "Intransitive-dice-porocilo" 1670998236
+  "/Users/urska/Desktop/FP_projekt/FP---12.-naloga/Intransitive-dice-porocilo.aux" 1670998236 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/Users/urska/Desktop/FP_projekt/FP---12.-naloga/Intransitive-dice-porocilo.tex" 1670998194 3528 070fb43dbc323990413c1b7037f8b3e5 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -91,12 +91,12 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557342064 3277517 23507ed665b4dd9046f0f2a94bbef2be ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1572528846 4259637 7499f77dc46ed75f07bf9a282bc59cf2 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "FP_12_nal_kratko_p.aux" 0 -1 0 "pdflatex"
   "FP_12_nal_kratko_p.png" 1670840796 23150 e8c251d23b19c067e28dafecd56d0cb3 ""
-  "FP_12_nal_kratko_p.tex" 1670843677 3510 2d50044f58b9c7b4c4b75c57cd2585d1 ""
+  "Intransitive-dice-porocilo.aux" 0 -1 0 "pdflatex"
+  "Intransitive-dice-porocilo.tex" 1670998194 3528 070fb43dbc323990413c1b7037f8b3e5 ""
   (generated)
-  "FP_12_nal_kratko_p.log"
-  "/Users/urska/Desktop/FP_projekt/FP---12.-naloga/FP_12_nal_kratko_p.pdf"
-  "/Users/urska/Desktop/FP_projekt/FP---12.-naloga/FP_12_nal_kratko_p.log"
-  "FP_12_nal_kratko_p.pdf"
-  "FP_12_nal_kratko_p.aux"
+  "/Users/urska/Desktop/FP_projekt/FP---12.-naloga/Intransitive-dice-porocilo.log"
+  "Intransitive-dice-porocilo.aux"
+  "Intransitive-dice-porocilo.log"
+  "/Users/urska/Desktop/FP_projekt/FP---12.-naloga/Intransitive-dice-porocilo.pdf"
+  "Intransitive-dice-porocilo.pdf"

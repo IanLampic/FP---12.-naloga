@@ -42,5 +42,8 @@ def glavna(n, m):
         lst_with_max = lst[i][1]
     return maxp, lst_with_max
 
+#from fractions import Fraction
 for i in range(100):
    print(f"{int(list(zip(glavna(100000000, 10000)))[0][0] * 36)}" + "/36")
+   #print(Fraction(int(list(zip(glavna(100000000, 10000)))[0][0] * 36), 36))
+

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.31)  12 DEC 2022 12:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.31)  14 DEC 2022 07:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/urska/Desktop/FP_projekt/FP---12.-naloga/FP_12_nal_kratko_p.tex
-(/Users/urska/Desktop/FP_projekt/FP---12.-naloga/FP_12_nal_kratko_p.tex
+**/Users/urska/Desktop/FP_projekt/FP---12.-naloga/Intransitive-dice-porocilo.tex
+(/Users/urska/Desktop/FP_projekt/FP---12.-naloga/Intransitive-dice-porocilo.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amscls/amsart.cls
 Document Class: amsart 2017/10/31 v2.20.4
@@ -179,8 +179,8 @@ Package caption Info: AMS or SMF document class.
 \c@lotdepth=\count110
 \sf@top=\skip54
 \sf@bottom=\skip55
-) (/Users/urska/Desktop/FP_projekt/FP---12.-naloga/FP_12_nal_kratko_p.aux)
-\openout1 = `FP_12_nal_kratko_p.aux'.
+) (/Users/urska/Desktop/FP_projekt/FP---12.-naloga/Intransitive-dice-porocilo.aux)
+\openout1 = `Intransitive-dice-porocilo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
@@ -255,13 +255,13 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
  [1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-/Users/urska/Desktop/FP_projekt/FP---12.-naloga/FP_12_nal_kratko_p.tex:75: LaTeX Error: There's no line here to end.
+/Users/urska/Desktop/FP_projekt/FP---12.-naloga/Intransitive-dice-porocilo.tex:74: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.75 \\\includegraphics
+l.74 \\\includegraphics
                        [width=100mm]{FP_12_nal_kratko_p.png}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -270,19 +270,19 @@ or  <return>  to continue without it.
 <FP_12_nal_kratko_p.png, id=8, 642.4pt x 163.61125pt>
 File: FP_12_nal_kratko_p.png Graphic file (type png)
 <use FP_12_nal_kratko_p.png>
-Package pdftex.def Info: FP_12_nal_kratko_p.png  used on input line 75.
+Package pdftex.def Info: FP_12_nal_kratko_p.png  used on input line 74.
 (pdftex.def)             Requested size: 284.52756pt x 72.46599pt.
-[2 </Users/urska/Desktop/FP_projekt/FP---12.-naloga/FP_12_nal_kratko_p.png>] [3] (/Users/urska/Desktop/FP_projekt/FP---12.-naloga/FP_12_nal_kratko_p.aux) ) 
+[2 </Users/urska/Desktop/FP_projekt/FP---12.-naloga/FP_12_nal_kratko_p.png>] [3] (/Users/urska/Desktop/FP_projekt/FP---12.-naloga/Intransitive-dice-porocilo.aux) ) 
 Here is how much of TeX's memory you used:
- 4801 strings out of 492616
- 68754 string characters out of 6129480
+ 4802 strings out of 492616
+ 68844 string characters out of 6129480
  149174 words of memory out of 5000000
  8477 multiletter control sequences out of 15000+600000
  17014 words of font info for 63 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 44i,8n,42p,333b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,8n,42p,452b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on /Users/urska/Desktop/FP_projekt/FP---12.-naloga/FP_12_nal_kratko_p.pdf (3 pages, 94578 bytes).
+Output written on /Users/urska/Desktop/FP_projekt/FP---12.-naloga/Intransitive-dice-porocilo.pdf (3 pages, 95823 bytes).
 PDF statistics:
  45 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
