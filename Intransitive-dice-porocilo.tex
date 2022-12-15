@@ -46,7 +46,7 @@ da bo obstajala trojica kock, za katere bo veljala dana lastnost. Kasneje si bov
 in kockami s petimi stranmi.
 
 \section{Način reševanja}
-Najprej bova sestavila pomožno funkcijo, ki bo za argumente prejela seznam treh seznamov. V vsakem seznamu bo 6 naravnih števil, ki bodo predstavljale števila na kocki. Če so A, B in C slučajne spremenljivke, ki povedo, koliko pokaže posamezna kocka, bo torej funkcija vračala $min(P(A>B), P(B>C) in P(C>A))$. Nato bi naredila krovno funkcijo, ki bi sprejela
+Najprej bova sestavila pomožno funkcijo, ki bo za argumente prejela seznam treh seznamov. V vsakem seznamu bo 6 naravnih števil, ki bodo predstavljale števila na kocki. Če so A, B in C slučajne spremenljivke, ki povedo, koliko pokaže posamezna kocka, bo torej funkcija vračala $min(P(A>B), P(B>C), P(C>A))$. Nato bi naredila krovno funkcijo, ki bi sprejela
 naravno število $n$. Znotraj te funkcije bi generirala seznam seznamov z elementi prvih $n$ naravnih števil in na vsakem takem seznamu poklicala pomožno funkcijo.
 Medtem bi beležila dobljene verjetnosti in na koncu vrnila maksimum teh vrednosti. Za vsa nadaljna vprašanja bova funkcijo prilagodila danim zahtevam in ponovila postopek.
 
