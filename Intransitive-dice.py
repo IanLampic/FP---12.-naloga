@@ -62,4 +62,8 @@ def krovna(n, m, sides, num_of_dice): #generira m ponovitev z num_of_dice kockam
    #print(f"{i}.", "Verjetnost, da ne velja tranzitivnost je enaka " + f"{func3[0]}" + "/9" + "," + " za dane kocke:" + "\n" + f"{func3[1][0]}" + "\n" + f"{func3[1][1]}" + "\n" + f"{func3[1][2]}" + "\n") #5/9, kar je približno 0,5556
    #print(f"{i}.", "Verjetnost, da ne velja tranzitivnost je enaka " + f"{func4[0]}" + "/36" + "," + " za dane kocke:" + "\n" + f"{func4[1][0]}" + "\n" + f"{func4[1][1]}" + "\n" + f"{func4[1][2]}" + "\n" + f"{func4[1][3]}" + "\n") #20/36=5/9, kar je približno 0,5556
 
+##3 kocke
+#stranost: 3:5/9, 4:9/16, 5:15/25, 6:21/36, 7:27/49, 8:36/64, 9:44/81, 10: 52/100
+##6 strane kocke
+#število kock: 3: 21/36, 4: , 5: 19/36
 
