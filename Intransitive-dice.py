@@ -55,11 +55,11 @@ def krovna(n, m, sides, num_of_dice): #generira m ponovitev z num_of_dice kockam
    #func1 = krovna(100000000, 10000, 5, 3)
    #func2 = krovna(100000000, 10000, 4, 3)
    #func3 = krovna(100000000, 10000, 3, 3)
-   #func4 = krovna(100000000, 10000, 6, 4)
-   #print(f"{i}.", "Verjetnost, da ne velja tranzitivnost je enaka " + f"{func0[0]}" + "/36" + "," + " za dane kocke:" + "\n" + f"{func[1][0]}" + "\n" + f"{func[1][1]}" + "\n" + f"{func[1][2]}" + "\n") #21/36=7/12, kar je približno 0,5833
-   #print(f"{i}.", "Verjetnost, da ne velja tranzitivnost je enaka " + f"{func1[0]}" + "/25" + "," + " za dane kocke:" + "\n" + f"{func[1][0]}" + "\n" + f"{func[1][1]}" + "\n" + f"{func[1][2]}" + "\n") #15/25=3/5, kar je 0,6
-   #print(f"{i}.", "Verjetnost, da ne velja tranzitivnost je enaka " + f"{func2[0]}" + "/16" + "," + " za dane kocke:" + "\n" + f"{func[1][0]}" + "\n" + f"{func[1][1]}" + "\n" + f"{func[1][2]}" + "\n") #9/16, kar je 0,5625
-   #print(f"{i}.", "Verjetnost, da ne velja tranzitivnost je enaka " + f"{func3[0]}" + "/9" + "," + " za dane kocke:" + "\n" + f"{func[1][0]}" + "\n" + f"{func[1][1]}" + "\n" + f"{func[1][2]}" + "\n") #5/9, kar je približno 0,5556
+   #func4 = krovna(100, 10000, 6, 4)
+   #print(f"{i}.", "Verjetnost, da ne velja tranzitivnost je enaka " + f"{func0[0]}" + "/36" + "," + " za dane kocke:" + "\n" + f"{func0[1][0]}" + "\n" + f"{func0[1][1]}" + "\n" + f"{func0[1][2]}" + "\n") #21/36=7/12, kar je približno 0,5833
+   #print(f"{i}.", "Verjetnost, da ne velja tranzitivnost je enaka " + f"{func1[0]}" + "/25" + "," + " za dane kocke:" + "\n" + f"{func1[1][0]}" + "\n" + f"{func1[1][1]}" + "\n" + f"{func1[1][2]}" + "\n") #15/25=3/5, kar je 0,6
+   #print(f"{i}.", "Verjetnost, da ne velja tranzitivnost je enaka " + f"{func2[0]}" + "/16" + "," + " za dane kocke:" + "\n" + f"{func2[1][0]}" + "\n" + f"{func2[1][1]}" + "\n" + f"{func2[1][2]}" + "\n") #9/16, kar je 0,5625
+   #print(f"{i}.", "Verjetnost, da ne velja tranzitivnost je enaka " + f"{func3[0]}" + "/9" + "," + " za dane kocke:" + "\n" + f"{func3[1][0]}" + "\n" + f"{func3[1][1]}" + "\n" + f"{func3[1][2]}" + "\n") #5/9, kar je približno 0,5556
    #print(f"{i}.", "Verjetnost, da ne velja tranzitivnost je enaka " + f"{func4[0]}" + "/36" + "," + " za dane kocke:" + "\n" + f"{func4[1][0]}" + "\n" + f"{func4[1][1]}" + "\n" + f"{func4[1][2]}" + "\n" + f"{func4[1][3]}" + "\n") #20/36=5/9, kar je približno 0,5556
 
 
