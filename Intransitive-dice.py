@@ -51,7 +51,8 @@ def krovna(n, m, sides, num_of_dice): #generira m ponovitev z num_of_dice kockam
     return max_prob, lst_with_max
 
 #for i in range(25): #krovna funkcija se požene 100-krat in vrne rezultate v stringu, zaradi lepšega izpisa
-   #func0 = krovna(100000000, 10000, 6, 3)
+#   func0 = krovna(1000000, 100000, 6, 8)
+#   print(i, func0[0])
    #func1 = krovna(100000000, 10000, 5, 3)
    #func2 = krovna(100000000, 10000, 4, 3)
    #func3 = krovna(100000000, 10000, 3, 3)
@@ -61,9 +62,9 @@ def krovna(n, m, sides, num_of_dice): #generira m ponovitev z num_of_dice kockam
    #print(f"{i}.", "Verjetnost, da ne velja tranzitivnost je enaka " + f"{func2[0]}" + "/16" + "," + " za dane kocke:" + "\n" + f"{func2[1][0]}" + "\n" + f"{func2[1][1]}" + "\n" + f"{func2[1][2]}" + "\n") #9/16, kar je 0,5625
    #print(f"{i}.", "Verjetnost, da ne velja tranzitivnost je enaka " + f"{func3[0]}" + "/9" + "," + " za dane kocke:" + "\n" + f"{func3[1][0]}" + "\n" + f"{func3[1][1]}" + "\n" + f"{func3[1][2]}" + "\n") #5/9, kar je približno 0,5556
    #print(f"{i}.", "Verjetnost, da ne velja tranzitivnost je enaka " + f"{func4[0]}" + "/36" + "," + " za dane kocke:" + "\n" + f"{func4[1][0]}" + "\n" + f"{func4[1][1]}" + "\n" + f"{func4[1][2]}" + "\n" + f"{func4[1][3]}" + "\n") #20/36=5/9, kar je približno 0,5556
-
+   #print(f"{i}.", "Verjetnost, da ne velja tranzitivnost je enaka " + f"{func0[0]}" + "/9" + "," + " za dane kocke:" + "\n" + f"{func0[1][0]}" + "\n" + f"{func0[1][1]}" + "\n" + f"{func0[1][2]}" + "\n" + f"{func0[1][3]}" + "\n"+ f"{func0[1][4]}" + "\n"+ f"{func0[1][5]}" + "\n"+ f"{func0[1][6]}" + "\n"+ f"{func0[1][7]}" + "\n"+ f"{func0[1][8]}" + "\n"+ f"{func0[1][9]}" + "\n") #5/9, kar je približno 0,5556
 ##3 kocke
-#stranost: 3:5/9, 4:9/16, 5:15/25, 6:21/36, 7:27/49, 8:36/64, 9:44/81, 10: 52/100
+#stranost: 3:5/9, 4:9/16, 5:15/25, 6:21/36, 7:28/49, 8:36/64, 9:45/81, 10: 56/100
 ##6 strane kocke
-#število kock: 3: 21/36, 4: , 5: 19/36
+#število kock: 3: 21/36, 4: 20/36 , 5: 19/36, 6: 19/36, 7:19/36(18?),8:18/36 9:18/36 10: 17/36
 

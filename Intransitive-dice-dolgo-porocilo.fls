@@ -115,6 +115,7 @@ INPUT /Users/urska/Desktop/3_letnik/Intransitive-dice/Intransitive-dice-dolgo-po
 INPUT /Users/urska/Desktop/3_letnik/Intransitive-dice/Intransitive-dice-dolgo-porocilo.toc
 OUTPUT /Users/urska/Desktop/3_letnik/Intransitive-dice/Intransitive-dice-dolgo-porocilo.toc
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -132,7 +133,6 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
@@ -148,6 +148,9 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
 INPUT /Users/urska/Desktop/3_letnik/Intransitive-dice/st_stranic.png
 INPUT /Users/urska/Desktop/3_letnik/Intransitive-dice/st_stranic.png
 INPUT /Users/urska/Desktop/3_letnik/Intransitive-dice/st_stranic.png
+INPUT /Users/urska/Desktop/3_letnik/Intransitive-dice/st_kock.png
+INPUT /Users/urska/Desktop/3_letnik/Intransitive-dice/st_kock.png
+INPUT /Users/urska/Desktop/3_letnik/Intransitive-dice/st_kock.png
 INPUT /Users/urska/Desktop/3_letnik/Intransitive-dice/Intransitive-dice-dolgo-porocilo.aux
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb

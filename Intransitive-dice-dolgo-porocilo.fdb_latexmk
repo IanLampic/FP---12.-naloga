@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1672848282 "/Users/urska/Desktop/3_letnik/Intransitive-dice/Intransitive-dice-dolgo-porocilo.tex" "/Users/urska/Desktop/3_letnik/Intransitive-dice/Intransitive-dice-dolgo-porocilo.pdf" "Intransitive-dice-dolgo-porocilo" 1672848289
-  "/Users/urska/Desktop/3_letnik/Intransitive-dice/Intransitive-dice-dolgo-porocilo.aux" 1672848283 1478 741b5f21761b294960211e9121bf0f78 ""
-  "/Users/urska/Desktop/3_letnik/Intransitive-dice/Intransitive-dice-dolgo-porocilo.tex" 1672848282 6064 7ef9c5a4f3576c0c6e16e1179d73b8fd ""
+["pdflatex"] 1672958125 "/Users/urska/Desktop/3_letnik/Intransitive-dice/Intransitive-dice-dolgo-porocilo.tex" "/Users/urska/Desktop/3_letnik/Intransitive-dice/Intransitive-dice-dolgo-porocilo.pdf" "Intransitive-dice-dolgo-porocilo" 1672958126
+  "/Users/urska/Desktop/3_letnik/Intransitive-dice/Intransitive-dice-dolgo-porocilo.aux" 1672958125 1872 89c4c9e2497964848cd90743c5f7f8ea ""
+  "/Users/urska/Desktop/3_letnik/Intransitive-dice/Intransitive-dice-dolgo-porocilo.tex" 1672958124 6627 fcea989ab0d0f86ac4de6a68c23e8ad9 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -96,14 +96,15 @@
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1572528846 4259637 7499f77dc46ed75f07bf9a282bc59cf2 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
   "Efron's dice.png" 1672844752 23150 e8c251d23b19c067e28dafecd56d0cb3 ""
-  "Intransitive-dice-dolgo-porocilo.aux" 1672848283 1478 741b5f21761b294960211e9121bf0f78 "pdflatex"
-  "Intransitive-dice-dolgo-porocilo.tex" 1672848282 6064 7ef9c5a4f3576c0c6e16e1179d73b8fd ""
-  "Intransitive-dice-dolgo-porocilo.toc" 1672848283 865 a4e5578667a93667f2aeb1a7f7c6d445 "pdflatex"
-  "st_stranic.png" 1672848238 34395 08209857cac90f18fd6e43e752122b99 ""
+  "Intransitive-dice-dolgo-porocilo.aux" 1672958125 1872 89c4c9e2497964848cd90743c5f7f8ea "pdflatex"
+  "Intransitive-dice-dolgo-porocilo.tex" 1672958124 6627 fcea989ab0d0f86ac4de6a68c23e8ad9 ""
+  "Intransitive-dice-dolgo-porocilo.toc" 1672958125 1139 45fbd318388bce6332456d53a2600306 "pdflatex"
+  "st_kock.png" 1672955822 30001 69c20d4b42ae6c94e235e3c2536f9b8c ""
+  "st_stranic.png" 1672955805 34535 b14907f1ecd22618a26d0fec9bb6718f ""
   (generated)
-  "Intransitive-dice-dolgo-porocilo.aux"
   "Intransitive-dice-dolgo-porocilo.log"
-  "/Users/urska/Desktop/3_letnik/Intransitive-dice/Intransitive-dice-dolgo-porocilo.log"
   "Intransitive-dice-dolgo-porocilo.pdf"
-  "/Users/urska/Desktop/3_letnik/Intransitive-dice/Intransitive-dice-dolgo-porocilo.pdf"
   "Intransitive-dice-dolgo-porocilo.toc"
+  "Intransitive-dice-dolgo-porocilo.aux"
+  "/Users/urska/Desktop/3_letnik/Intransitive-dice/Intransitive-dice-dolgo-porocilo.pdf"
+  "/Users/urska/Desktop/3_letnik/Intransitive-dice/Intransitive-dice-dolgo-porocilo.log"

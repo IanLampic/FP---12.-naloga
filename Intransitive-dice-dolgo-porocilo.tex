@@ -44,6 +44,7 @@ Ljubljana, 2023}
 
 
 \section{Predstavitev osnovnega problema}
+\subsection{Problem}
 Naj bo $p > \frac{1}{2}$ konstanta, A, B in C pa 6 - strane kocke z različnimi števili na svojih straneh, tako da kocka A premaga
 B z verjetnostjo vsaj $p$, B premaga C z verjetnostjo vsaj $p$ in C premaga A z verjetnostjo vsaj $p$. Želimo poiskati maksimalni $p$ tako, 
 da bo obstajala trojica kock, za katere bo veljala dana lastnost. Kasneje si bova ogledala še primere s štirimi kockami, trostranimi kockami, štiristranimi kockami
@@ -56,7 +57,7 @@ Medtem bi beležila dobljene verjetnosti in na koncu vrnila maksimum teh vrednos
 
 \subsection{Primeri netranzitivnih kock}
 
-\subsection{Primer}
+\subsubsection{Primer}
 \begin{itemize}
     \item A: 2, 2, 6, 6, 7, 7
     \item B: 1, 1, 5, 5, 9, 9
@@ -163,9 +164,17 @@ V prvem koraku sva naredila funkcijo, ki sprejme dva seznama, ju razporedi po vr
  \end{verbatim}
 
  \section{Rezultati}
+ \subsection{Rezultati v odvisnosti od k-stranosti}
+ \begin{center}
+    \includegraphics*[width=100mm]{st_stranic.png}
+ \end{center}
+ Graf predstavlja spreminjanje verjetnosti v odvisnosti od števila stranic. V vseh primerih smo poskus ponovili s tremi kockami. Opazimo, da je maksimum funkcije pri primeru, ko imamo 5-strane kocke.
+ \subsection{Rezultati v odvisnosti od števila kock}
+\begin{center}
+    \includegraphics*[width=100mm]{st_kock.png}
+\end{center}
+V zgornjem grafu je prikazano kako število kock vpliva na njihovo intranzitivnost. v poskusu sva uporabila 3-strane kocke.
 
- \includegraphics[width=100mm]{st_stranic.png}
- 
 
  %%%grafi št. stranic od 3-10, 3 kocke; št kock 6stranih
 
