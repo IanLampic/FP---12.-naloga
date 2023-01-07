@@ -131,7 +131,7 @@ Seznama nam predstavljata dve kocki, števila v njih pa so števila na stranicah
     lst_of_probs.append((sorted(dice[numb_of_dice-1]), 
     sorted(dice[0]), sum(comparison(dice[numb_of_dice-1], dice[0]))))
     prob = 100 #določena zgornja meja za minimum, ki ne bo presežena
-    for i in range(len(lst_of_probs)):
+    for i in range(len(lst_of_probs)): 
         prob = min(prob, lst_of_probs[i][2])
     return prob, dice
  \end{verbatim}
