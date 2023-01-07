@@ -100,6 +100,7 @@ S podobnim izračunom dobimo še verjetnost, da D premaga A.
 
 \section{Reševanje osnovnega problema}
 \subsection{Primerjava kock}
+<<<<<<< HEAD
 V prvem koraku sva naredila funkcijo $comparison$, ki \linebreak
 sprejme dva seznama, ju uredi po naraščajočem vrstnem redu in prešteje, koliko števil prvega seznama je večjih od števil iz drugega seznama. Nato ta števila shrani že 
 v prej definiran prazen seznam in vrne ta seznam kot rezultat.
@@ -113,16 +114,33 @@ Seznama nam predstavljata dve kocki, števila v njih pa so števila na stranicah
     for i in range(len(lst1)):
         for j in range(len(lst2)):
             if lst1[i] > lst2[j]: 
+=======
+V prvem koraku sva naredila funkcijo, ki sprejme dva seznama, ju razporedi po vrstnem redu ter šteje, koliko števil prvega seznama je večjih od števil iz drugega seznama. Seznama nam predstavljata dve kocki, števila v njih pa so števila na stranicah kock.
+ \begin{verbatim}
+    def comparison(sez1, sez2):
+    count = 0
+    p = []
+    sez1.sort()
+    sez2.sort()
+    for i in range(len(sez1)):
+        for j in range(len(sez2)):
+            if sez1[i] > sez2[j]: 
+>>>>>>> 1aaeb4adb66bae0c175f0b98e4e1decb2c4a7655
                 count += 1
         p.append(count) 
         count = 0 
     return p
  \end{verbatim}
 
+<<<<<<< HEAD
  \subsection{Intranzitivnost}
  V naslednjem delu sva naredila funkcijo $intransitive$, ki za argument prejme seznam seznamov, kar predstavlja dane kocke.
  Nato se na danih kockah izvede funkcija $comparison$, v prej definiran prazen seznam pa se shranjujejo vsote seznamov, ki jih ta funkcija vrne.
  Na koncu vzame minimum vseh vsot, kar predstavlja verjetnost, da med danimi kockami ne velja tranzitivnost. Funkcija vrne to verjetnost in pa kocke, ki jim ta verjetnost pripada.
+=======
+ \subsection{intranzitivnost}
+ Opis
+>>>>>>> 1aaeb4adb66bae0c175f0b98e4e1decb2c4a7655
  \begin{verbatim}
     def intransitive(dice):
     numb_of_dice = len(dice)
@@ -131,17 +149,27 @@ Seznama nam predstavljata dve kocki, števila v njih pa so števila na stranicah
         comparison(dice[i], dice[i+1])
         lst_of_probs.append((sorted(dice[i]), sorted(dice[i + 1]),
          sum(comparison(dice[i], dice[i+1]))))
+<<<<<<< HEAD
     lst_of_probs.append((sorted(dice[numb_of_dice-1]), 
     sorted(dice[0]), sum(comparison(dice[numb_of_dice-1], dice[0]))))
+=======
+    lst_of_probs.append((sorted(dice[numb_of_dice-1]), sorted(dice[0]),
+     sum(comparison(dice[numb_of_dice-1], dice[0]))))
+>>>>>>> 1aaeb4adb66bae0c175f0b98e4e1decb2c4a7655
     prob = 100 #določena zgornja meja za minimum, ki ne bo presežena
     for i in range(len(lst_of_probs)):
         prob = min(prob, lst_of_probs[i][2])
     return prob, dice
  \end{verbatim}
 
+<<<<<<< HEAD
  \subsection{Generator kocke}
  Naslednja funkcija naredi seznam različnih naravnih števil, ki jih bo izbrala slučajno na intervalu $\left[1,m\right]$. 
  Število elementov seznama je enako številu stranic kocke, kar pa predstavlja argument $sides$.
+=======
+ \subsection{generator kocke}
+ Naslednja funkcija nam bo naredila seznam različnih naravnih števil, ki jih bo izbrala slučajno iz intervala $\left[1,m\right]$, za .. sides pa bo sprejela število stranic kocke. Torej dobili bomo seznam, ki bo predstavljal naključno kocko.
+>>>>>>> 1aaeb4adb66bae0c175f0b98e4e1decb2c4a7655
  \begin{verbatim}
     def generator_list(m, sides):
     st = set()
@@ -151,11 +179,16 @@ Seznama nam predstavljata dve kocki, števila v njih pa so števila na stranicah
     return list(st)
  \end{verbatim}
 
+<<<<<<< HEAD
  \subsection{Krovna funkcija}
  Krovna funkcija $m$-krat naredi $num\_of\_dice$ kock in v prej definiran prazen seznam shranjuje rezultate funkcije $intransitive$. 
  Generator, ki nam generira dane kocke za argument sprejme $n$, kar predstavlja zgornjo mejo intervala, iz katerega izbira naravna števila in pa število kock, kar pa predstavlja argumentom $sides$.
  Na koncu izmed vseh rezultatov novega seznama vrne maksimum, kar predstavlja največjo verjetnost, da med danimi kockami ne velja tranzitivnost, izmed vseh različnih kombinacij kock v tem seznamu.
  Funkcija vrne to verjetnost in pa kocke, ki jim ta verjetnost pripada.
+=======
+ \subsection{Končna funkcija}
+ Generira m ponovitev z $num\_of\_dice$ kockami, ki imajo $sides$ stranic, zgornja meja za generator seznama pa je $n$
+>>>>>>> 1aaeb4adb66bae0c175f0b98e4e1decb2c4a7655
  \begin{verbatim}
     def krovna(n, m, sides, num_of_dice):  
     lst = []
@@ -173,6 +206,7 @@ Seznama nam predstavljata dve kocki, števila v njih pa so števila na stranicah
  \end{verbatim}
 
  \section{Rezultati}
+<<<<<<< HEAD
 
  \subsection{Rezultati v odvisnosti od k-stranosti}
  \begin{center}
@@ -188,5 +222,23 @@ V zgornjem grafu je prikazano, kako število kock vpliva na verjetnost, da za da
 
 \subsection{Opomba rezultatom}
 Za vsak komplet kock sva eksperiment ponovila 2,5 milijonkrat, torej lahko sklepamo zaradi velikega števila ponovitev, da so rešitve zelo blizu pravim, vseeno pa lahko pričakujemo pri kakšnem primeru manjše odstopanje zaradi omejenosti števila ponovitev. Za večjo zanesljivost sva rezultata za primer s tremi in štirimi 6-stranimi kockami preverila tudi pri drugih virih in ugotovila, da se ujemajo z najinimi rešitvami.
+=======
+ \subsection{Rezultati v odvisnosti od k-stranosti}
+ \begin{center}
+    \includegraphics*[width=100mm]{st_stranic.png}
+ \end{center}
+ Graf predstavlja spreminjanje verjetnosti v odvisnosti od števila stranic. V vseh primerih smo poskus ponovili s tremi kockami. Opazimo, da je maksimum funkcije pri primeru, ko imamo 5-strane kocke.
+ \subsection{Rezultati v odvisnosti od števila kock}
+\begin{center}
+    \includegraphics*[width=100mm]{st_kock.png}
+\end{center}
+V zgornjem grafu je prikazano kako število kock vpliva na njihovo intranzitivnost. v poskusu sva uporabila 3-strane kocke.
+
+
+ %%%grafi št. stranic od 3-10, 3 kocke; št kock 6stranih
+
+
+
+>>>>>>> 1aaeb4adb66bae0c175f0b98e4e1decb2c4a7655
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
