@@ -53,8 +53,9 @@ def krovna(n, m, sides, num_of_dice): #generira m ponovitev z num_of_dice kockam
 import time
 
 #for i in range(25): #krovna funkcija se požene 100-krat in vrne rezultate v stringu, zaradi lepšega izpisa
+    #start_time = time.time()
     #func0 = krovna(1000000, 10000, 6, 8)
-    #print(i, func0[0], round(time.time() - start_time, 2))
+    #print(i, func0[0], round(time.time() - time.start_time, 2))
     #func1 = krovna(100000000, 10000, 5, 3)
     #func2 = krovna(100000000, 10000, 4, 3)
     #func3 = krovna(100000000, 10000, 3, 3)
